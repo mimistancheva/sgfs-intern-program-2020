@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  input[type="text"] {
+    height: 20px;
+  }
+  
+  input[type="checkbox"],
+  label {
+    cursor: pointer;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .button {
+    padding: 5px 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .list-item {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+  }
+  

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual club</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="container">
+        <div id="form">
+          <span id="action">Add event</span>
+          <input type="hidden" id="event-id" />
+          <input type="text" placeholder="Event name" id="event-name" />
+          <div class="input-group">
+            <input type="checkbox" id="checkbox-nsfw" checked />
+            <label for="checkbox-nsfw">+18</label>
+          </div>
+          <button class="button" id="submit-button">Save</button>
+        </div>
+        <ul class="list" id="event-list"></ul>
+      </div>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
